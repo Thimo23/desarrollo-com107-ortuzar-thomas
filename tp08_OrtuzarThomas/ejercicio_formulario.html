@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       <meta charset="utf-8">
+       <title>Formulario de ingreso</title>
+       <link rel="stylesheet" href="estilos.css">
+       <h1>Formulario</h1>
+    </head>
+
+    <body>
+     <p>Complete el siguiente formulario.</p>
+
+     <form method="post">
+<fieldset id="principal">
+        <fieldset>
+                <label for="nombre">
+                Nombre: <input type="text" name="nombre" id="nombre" required>
+                </label>
+        
+               <label for="apellido">
+                Apellido: <input type="text" name="apellido" id="apellido" required>
+               </label>
+        
+               <label for="edad">
+                Edad: <input type="text" name="edad" id="edad" required>
+               </label>       
+        </fieldset>
+      
+        <fieldset>
+            <label for="sexo"> Sexo:
+                <select name="sexo" id="sexo" required>
+                    <option value="">(Elija uno)</option>
+                    <option value="1">Hombre</option>
+                    <option value="2">Mujer</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            Mayor de 18 años?
+            <br>
+            <label for="mayor">
+             Si<input type="radio" id="mayor" name="mayor-menor" class="alineado">
+            </label>
+
+            <label for="menor">
+                No<input type="radio" id="menor" name="mayor-menor" class="alineado">
+            </label>
+           
+        </fieldset>
+       
+        <fieldset>
+            <label for="idiomas">Idiomas:
+                <br>
+                <select name="idiomas" id="idiomas" multiple>
+                    <option value="1">Inglés</option>
+                    <option value="2">Francés</option>
+                    <option value="3">Alemán</option>
+                    <option value="4">Holandés</option>
+                </select>
+            </label>
+        </fieldset>
+                                               
+        <fieldset>Vehiculo:
+            <br>
+            <br>
+            <label for="auto">Auto<input type="checkbox" name="auto" id="auto" class="alineado"></label>
+            <label for="camioneta">Camioneta<input type="checkbox" name="camioneta" id="camioneta" class="alineado"></label>
+            <label for="camion">Camión<input type="checkbox" name="camion" id="camion" class="alineado"></label>
+        </fieldset>
+        
+        <fieldset>
+            <label> Comentarios: 
+                <textarea rows="6" cols="40" placeholder="Escribe algo aquí..."></textarea>
+            </label>
+        </fieldset>
+
+        <label for="enviar">
+            <input type="button" name="enviar" id="enviar" value="Enviar">
+        </label> 
+        <label for="enviar">
+            <input type="button" name="borrar" id="borrar" value="Borrar datos">
+        </label> 
+</fieldset>
+     </form>
+
+
+    </body>
+</html>
