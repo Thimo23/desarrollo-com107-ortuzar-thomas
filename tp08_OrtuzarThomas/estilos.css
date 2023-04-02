@@ -18,10 +18,8 @@ body {
 
   input,
   textarea,
-  select {
+  select,label {
    display: block; 
-   
-   
   }
 
   form {
@@ -38,9 +36,7 @@ body {
     
   }
 
-  .alineado{
-    display: inline;
-  }
+
 
   #principal{
    border: 2px solid #0a0a23;
@@ -67,9 +63,14 @@ body {
 
   input[type=text]{
     margin-top: 3px;
+    margin-bottom: 4px;
       min-width: 300px;
       min-height: 25px;
   }
+
+#mayor{
+  margin-left: 12px;
+}
 
   select{
     min-width: 300px;
@@ -82,4 +83,8 @@ body {
   textarea{
     border-radius: 5px;
     margin-top: 4px;
+  }
+
+  .alineado{
+    display: inline;
   }
