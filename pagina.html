@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="utf-8">
+        <title>Practico N°6</title>
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <h1>Mis cursos</h1>
+        <ul id="cursos">
+            <li>Matemática</li>
+            <li>Lengua</li>
+            <li>Química</li>
+            <li>Filosofía</li>
+            <li>Educación Física</li>
+        </ul>
+
+        <h3>Mi listado de alumnos</h3>
+        
+        <table id="principio">
+            <tr>
+                <th>Orden</th>
+                <th>Apellido</th>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ver</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><strong>Lopéz</strong></td>
+                <td><em>Ignacio</em></td>
+                <td>21</td>
+                <td><a href="#alumno_1" class="enlace">Ver</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><strong>Beltrán</strong></td>
+                <td><em>Lucas</em></td>
+                <td>24</td>
+                <td><a href="#alumno_2" class="enlace">Ver</a></td>
+            </tr> 
+            <tr>
+                <td>3</td>
+                <td><strong>Álvarez</strong></td>
+                <td><em>Julián</em></td>
+                <td>23</td>
+                <td><a href="#alumno_3" class="enlace">Ver</a></td>
+            </tr> 
+            <tr>
+                <td>4</td>
+                <td><strong>Sánchez</strong></td>
+                <td><em>Carlos</em></td>
+                <td>25</td>
+                <td><a href="#alumno_4" class="enlace">Ver</a></td>
+            </tr> 
+            <tr>
+                <td>5</td>
+                <td><strong>Godínez</strong></td>
+                <td><em>Enzo</em></td>
+                <td>20</td>
+                <td><a href="#alumno_5" class="enlace">Ver</a></td>
+            </tr> 
+            <tr>
+                <td>6</td>
+                <td><strong>Ramírez</strong></td>
+                <td><em>Sebastián</em></td>
+                <td>25</td>
+                <td><a href="#alumno_6" class="enlace">Ver</a></td>
+            </tr>    
+        </table>
+        <br>
+        <img src="images/alumnos.jpg" width="400">
+        <br>
+        <br>
+        <section id="alumno_1" class="alumnoImpar">
+            <span>Apellido: Lopéz</span>
+            <br>
+            <span>Nombre: Ignacio</span>
+            <br>
+            <span>Edad: 21</span>
+            <br>
+            <img src="images/foto-por-defecto.jpg" width="100">
+        </section>
+        <br>
+        <section id="alumno_2" class="alumnoPar">
+            <span>Apellido: Beltrán</span>
+            <br>
+            <span>Nombre: Lucas</span>
+            <br>
+            <span>Edad: 24</span>
+            <br>
+            <img src="images/foto-por-defecto.jpg" width="100">
+        </section>
+        <br>
+        <section id="alumno_3" class="alumnoImpar">
+            <span>Apellido: Álvarez</span>
+            <br>
+            <span>Nombre: Julián</span>
+            <br>
+            <span>Edad: 23</span>
+            <br>
+            <img src="images/foto-por-defecto.jpg" width="100">
+        </section>
+        <br>
+        <section id="alumno_4" class="alumnoPar">
+            <span>Apellido: Sánchez</span>
+            <br>
+            <span>Nombre: Carlos</span>
+            <br>
+            <span>Edad: 25</span>
+            <br>
+            <img src="images/foto-por-defecto.jpg" width="100">
+        </section>
+        <br>
+        <section id="alumno_5" class="alumnoImpar">
+            <span>Apellido: Godínez</span>
+            <br>
+            <span>Nombre: Enzo</span>
+            <br>
+            <span>Edad: 20</span>
+            <br>
+            <img src="images/foto-por-defecto.jpg" width="100">
+        </section>
+        <br>
+        <section id="alumno_6" class="alumnoPar">
+            <span>Apellido: Ramírez</span>
+            <br>
+            <span>Nombre: Sebastián</span>
+            <br>
+            <span>Edad: 25</span>
+            <br>
+            <img src="images/foto-por-defecto.jpg" width="100">
+        </section>
+
+        <h2></h2>
+        <form>
+            <fieldset>
+                <legend>Regístrate</legend>
+             <label for="apellido">Apellido<input type="text" size="30"></label>
+             <label for="nombre">Nombre<input type="text" value="nombre alumno" size="40"></label>
+             <label for="edad">Edad<input type="number"></label>
+             <label for="estudios"> Nivel de estudios
+                <select name="estudios">
+                    <option>Primario</option>
+                    <option>Secundario</option>
+                    <option>Terciario</option>
+                    <option>Universitario</option>
+                    <option>No definido</option>
+                </select>
+             </label>
+
+             <label for="enviar">
+                <input type="submit" name="enviar" id="boton-submit" value="Regístrarse">
+            </label>
+
+            </fieldset>
+            
+        </form>
+
+        <p><a href="#principio" id="subir">Ir arriba</a></p>
+
+    </body>
+</html>

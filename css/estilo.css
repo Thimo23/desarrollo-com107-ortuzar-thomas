@@ -1,0 +1,56 @@
+#cursos{
+    background-color:#00b386;
+    color: white;
+}
+
+h1,h3{
+    color: #ff8c1a;
+}
+
+#principio{
+    background-color: whitesmoke;
+}
+
+.alumnoImpar{
+     background-color:snow;
+     font-style: italic;
+     font-size: 14px;
+}
+
+.alumnoPar{
+    background-color:ghostwhite;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.enlace{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enlace:hover{
+    background-color: #00b3b3;
+    color: white;
+}
+
+#subir{
+    color: #ff8c1a;
+}
+
+input,label,select{
+    display: block;
+    margin-top: 6px;
+}
+
+fieldset{
+    max-width: 600px;
+    background-color: #dde1e0;
+}
+
+#boton-submit{
+    min-width: 120px;
+    min-height: 5px;
+    min-height: 10px;
+    margin-top: 20px;
+    
+}
